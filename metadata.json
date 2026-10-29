@@ -1,0 +1,8 @@
+{
+  "name": "Remix Code From Zero",
+  "description": "Learn to code from zero with structured roadmaps, 2,480+ practice coding questions (300+ per language), beginner tutorials, career guidance, and AI assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

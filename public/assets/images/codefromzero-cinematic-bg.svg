@@ -1,0 +1,409 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Sky & Atmosphere Gradients -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070c18"/>
+      <stop offset="25%" stop-color="#121b2d"/>
+      <stop offset="50%" stop-color="#2a202e"/>
+      <stop offset="68%" stop-color="#5a2e28"/>
+      <stop offset="82%" stop-color="#a84e27"/>
+      <stop offset="94%" stop-color="#e27c32"/>
+      <stop offset="100%" stop-color="#fed776"/>
+    </linearGradient>
+
+    <!-- Golden Hour Sun Radial Glow -->
+    <radialGradient id="sunGlow" cx="62%" cy="66%" r="45%">
+      <stop offset="0%" stop-color="#fff8db" stop-opacity="0.95"/>
+      <stop offset="15%" stop-color="#fde047" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#f97316" stop-opacity="0.45"/>
+      <stop offset="65%" stop-color="#c2410c" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0b1120" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="sunDisc" cx="62%" cy="66%" r="4%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#fffbeb"/>
+      <stop offset="80%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.7"/>
+    </radialGradient>
+
+    <!-- Lake Reflection Gradient -->
+    <linearGradient id="lakeWater" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d1d1f"/>
+      <stop offset="20%" stop-color="#1e2229"/>
+      <stop offset="50%" stop-color="#111c24"/>
+      <stop offset="100%" stop-color="#0a1219"/>
+    </linearGradient>
+
+    <linearGradient id="lakeGoldenReflection" x1="62%" y1="0%" x2="62%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.75"/>
+      <stop offset="25%" stop-color="#f97316" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#c2410c" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Mountain Gradients -->
+    <linearGradient id="farMountainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#47313a"/>
+      <stop offset="50%" stop-color="#262335"/>
+      <stop offset="100%" stop-color="#181c2b"/>
+    </linearGradient>
+
+    <linearGradient id="midMountainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e2b33"/>
+      <stop offset="60%" stop-color="#192323"/>
+      <stop offset="100%" stop-color="#0e171b"/>
+    </linearGradient>
+
+    <linearGradient id="foreMountainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e2a24"/>
+      <stop offset="100%" stop-color="#091210"/>
+    </linearGradient>
+
+    <!-- Left Dark Cinematic Vignette Gradient -->
+    <linearGradient id="leftDarkCinematic" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050811" stop-opacity="0.94"/>
+      <stop offset="35%" stop-color="#070c16" stop-opacity="0.88"/>
+      <stop offset="60%" stop-color="#09111c" stop-opacity="0.6"/>
+      <stop offset="85%" stop-color="#0b1322" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0b1322" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Bottom Dark Vignette Gradient -->
+    <linearGradient id="bottomDarkCinematic" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#050811" stop-opacity="0.96"/>
+      <stop offset="30%" stop-color="#070c16" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#070c16" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Rocky Viewpoint Cliff Gradients -->
+    <linearGradient id="rockBaseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e36"/>
+      <stop offset="30%" stop-color="#1a1e24"/>
+      <stop offset="70%" stop-color="#11141a"/>
+      <stop offset="100%" stop-color="#07090d"/>
+    </linearGradient>
+
+    <linearGradient id="rockSunHighlight" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#d97706" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Programmer Hoodie & Details Gradients -->
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#242831"/>
+      <stop offset="35%" stop-color="#16181f"/>
+      <stop offset="75%" stop-color="#0e1014"/>
+      <stop offset="100%" stop-color="#07080a"/>
+    </linearGradient>
+
+    <linearGradient id="hoodieRimLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fed7aa" stop-opacity="0.55"/>
+      <stop offset="30%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Laptop Screen Glow -->
+    <linearGradient id="laptopBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="60%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <radialGradient id="screenCyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.45"/>
+      <stop offset="80%" stop-color="#6366f1" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Atmospheric Depth Filter -->
+    <filter id="softDepth" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="farDepth" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4.5"/>
+    </filter>
+  </defs>
+
+  <!-- 1. SKY BASE -->
+  <rect width="1920" height="1080" fill="url(#skyGrad)"/>
+
+  <!-- 2. GOLDEN SUNSET ATMOSPHERE & RAYS -->
+  <circle cx="1190" cy="670" r="750" fill="url(#sunGlow)"/>
+  
+  <!-- Subtle crepuscular golden light shafts radiating from sunset -->
+  <g opacity="0.22" style="mix-blend-mode: screen;">
+    <polygon points="1190,670 1920,280 1920,400" fill="#fde68a"/>
+    <polygon points="1190,670 1600,0 1780,0" fill="#fde047"/>
+    <polygon points="1190,670 1150,0 1340,0" fill="#fbbf24"/>
+    <polygon points="1190,670 780,0 950,0" fill="#f59e0b"/>
+    <polygon points="1190,670 300,100 480,0" fill="#ea580c"/>
+    <polygon points="1190,670 0,450 0,600" fill="#c2410c"/>
+  </g>
+
+  <!-- Sun Disc dipping over distant ridge -->
+  <circle cx="1190" cy="670" r="42" fill="url(#sunDisc)"/>
+
+  <!-- 3. DISTANT MOUNTAIN RANGES (Layer 1 - Softest / Furthest) -->
+  <path d="M0,720 L180,685 L390,705 L570,660 L780,690 L990,640 L1150,662 L1270,650 L1430,675 L1610,635 L1780,660 L1920,625 L1920,770 L0,770 Z" 
+        fill="url(#farMountainGrad)" filter="url(#farDepth)" opacity="0.85"/>
+
+  <!-- 4. MID-RANGE MOUNTAINS (Layer 2 - Craggy Peaks & Golden Rim Light) -->
+  <path d="M0,740 Q220,670 420,710 T840,665 T1160,655 T1480,640 T1740,650 L1920,630 L1920,800 L0,800 Z" 
+        fill="url(#midMountainGrad)" filter="url(#softDepth)" opacity="0.95"/>
+  <!-- Golden crest rim on mid mountains -->
+  <path d="M720,680 L840,665 L960,685 L1080,668 L1160,655 L1260,675 L1370,652 L1480,640 L1600,665" 
+        stroke="#fed7aa" stroke-width="2" fill="none" opacity="0.45" filter="url(#softDepth)"/>
+
+  <!-- 5. NEAR FOREGROUND MOUNTAINS & RIDGE SLOPES (Layer 3) -->
+  <path d="M0,760 L140,735 L320,750 L480,720 L680,745 L890,710 L1080,735 L1280,705 L1460,720 L1660,695 L1820,715 L1920,700 L1920,850 L0,850 Z" 
+        fill="url(#foreMountainGrad)"/>
+
+  <!-- 6. SERENE REFLECTIVE LAKE -->
+  <rect x="0" y="760" width="1920" height="180" fill="url(#lakeWater)"/>
+  
+  <!-- Golden Water Sunset Reflection Lane -->
+  <polygon points="1190,760 1260,760 1420,940 980,940" fill="url(#lakeGoldenReflection)" opacity="0.8"/>
+
+  <!-- Water Ripple Texture Lines -->
+  <g stroke="#fef08a" stroke-width="1.2" opacity="0.32" stroke-linecap="round">
+    <line x1="1120" y1="772" x2="1240" y2="772"/>
+    <line x1="1080" y1="782" x2="1270" y2="782"/>
+    <line x1="1040" y1="795" x2="1310" y2="795"/>
+    <line x1="990" y1="810" x2="1350" y2="810"/>
+    <line x1="940" y1="828" x2="1400" y2="828"/>
+    <line x1="910" y1="848" x2="1440" y2="848"/>
+    <line x1="860" y1="872" x2="1490" y2="872"/>
+    <line x1="820" y1="900" x2="1540" y2="900"/>
+    <line x1="780" y1="930" x2="1590" y2="930"/>
+  </g>
+
+  <!-- Specular glints on lake -->
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="1190" cy="780" rx="35" ry="1.5"/>
+    <ellipse cx="1205" cy="800" rx="45" ry="1.8"/>
+    <ellipse cx="1185" cy="820" rx="60" ry="2.2"/>
+    <ellipse cx="1220" cy="845" rx="75" ry="2.5"/>
+    <ellipse cx="1195" cy="875" rx="90" ry="3.0"/>
+    <ellipse cx="1230" cy="910" rx="110" ry="3.5"/>
+  </g>
+
+  <!-- 7. LUSH PINE FORESTS & SHORELINE CONIFERS -->
+  <!-- Left Shoreline Pine Silhouettes -->
+  <g fill="#0b1712">
+    <!-- Repetitive organic pine clusters across shore -->
+    <polygon points="40,760 55,710 70,760"/>
+    <polygon points="65,760 80,695 95,760"/>
+    <polygon points="90,760 108,705 125,760"/>
+    <polygon points="120,760 140,685 160,760"/>
+    <polygon points="150,760 172,700 195,760"/>
+    <polygon points="190,760 215,690 240,760"/>
+    <polygon points="235,760 260,715 285,760"/>
+    <polygon points="280,760 305,680 330,760"/>
+    <polygon points="325,760 350,705 375,760"/>
+    <polygon points="370,760 400,670 430,760"/>
+    <polygon points="425,760 455,695 485,760"/>
+    <polygon points="480,760 515,685 550,760"/>
+    <polygon points="545,760 575,710 605,760"/>
+    <polygon points="600,760 635,675 670,760"/>
+    <polygon points="665,760 700,700 735,760"/>
+    <polygon points="730,760 765,690 800,760"/>
+    <polygon points="795,760 830,715 865,760"/>
+  </g>
+
+  <!-- Right Shoreline Pine Silhouettes before the rocky viewpoint -->
+  <g fill="#0c1914">
+    <polygon points="1380,760 1410,685 1440,760"/>
+    <polygon points="1435,760 1465,695 1495,760"/>
+    <polygon points="1490,760 1525,670 1560,760"/>
+    <polygon points="1555,760 1590,690 1625,760"/>
+    <polygon points="1620,760 1660,665 1700,760"/>
+    <polygon points="1695,760 1735,680 1775,760"/>
+  </g>
+
+  <!-- 8. FOREGROUND ROCKY VIEWPOINT (Right Quadrant) -->
+  <!-- Main Cliff Outcrop Structure -->
+  <g id="rockyViewpoint">
+    <!-- Base Rocky Mountain Crag -->
+    <path d="M1120,1080 L1180,950 L1230,890 L1310,850 L1410,810 L1520,780 L1660,750 L1800,730 L1920,710 L1920,1080 Z" 
+          fill="url(#rockBaseGrad)"/>
+    
+    <!-- Secondary foreground rock shelf -->
+    <path d="M1250,1080 L1310,980 L1390,920 L1490,870 L1620,840 L1760,820 L1920,810 L1920,1080 Z" 
+          fill="#13171e"/>
+
+    <!-- Foreground immediate boulder ledge where the programmer sits -->
+    <path d="M1360,1080 L1420,1010 L1500,950 L1630,920 L1780,905 L1920,895 L1920,1080 Z" 
+          fill="#0c0e13"/>
+
+    <!-- Rock Texture Fissures & Strata -->
+    <g stroke="#262c37" stroke-width="2.5" opacity="0.65" stroke-linecap="round">
+      <path d="M1320,855 L1380,910 L1430,960 L1460,1040"/>
+      <path d="M1410,815 L1470,865 L1530,910 L1570,990"/>
+      <path d="M1520,785 L1590,835 L1650,880 L1690,950"/>
+      <path d="M1660,755 L1730,795 L1800,845 L1850,920"/>
+    </g>
+
+    <!-- Warm Golden Sunset Rim Lighting on Rock Edges -->
+    <path d="M1230,890 L1310,850 L1410,810 L1520,780 L1660,750 L1800,730 L1920,710" 
+          stroke="#f59e0b" stroke-width="3.5" fill="none" opacity="0.75" filter="url(#softDepth)"/>
+    <path d="M1390,920 L1490,870 L1620,840 L1760,820" 
+          stroke="#d97706" stroke-width="2" fill="none" opacity="0.6"/>
+
+    <!-- Alpine Pine on the rock edge -->
+    <g fill="#070e0a">
+      <polygon points="1780,730 1805,620 1830,730"/>
+      <polygon points="1790,690 1805,620 1820,690"/>
+      <polygon points="1815,735 1835,645 1855,735"/>
+      <polygon points="1750,740 1770,660 1790,740"/>
+    </g>
+  </g>
+
+  <!-- 9. THE PROGRAMMER (A young Indian man in black hoodie with laptop at sunset) -->
+  <g id="programmerFigure">
+    <!-- Cast Shadow on Rock -->
+    <ellipse cx="1610" cy="940" rx="140" ry="25" fill="#030406" opacity="0.85"/>
+
+    <!-- Legs & Lower Body sitting on the rocky ledge -->
+    <!-- Dark denim jeans / cargo trousers with natural folds -->
+    <path d="M1520,935 C1530,900 1560,880 1600,875 C1640,870 1670,885 1710,910 C1730,925 1740,945 1735,960 C1725,975 1690,965 1650,955 C1610,945 1560,955 1520,935 Z" 
+          fill="#111622"/>
+    <!-- Left bent leg extending naturally -->
+    <path d="M1530,920 C1510,925 1485,935 1475,950 C1465,965 1475,975 1500,970 C1525,965 1550,950 1565,935 Z" 
+          fill="#0c1018"/>
+    <!-- Right leg bent underneath -->
+    <path d="M1660,920 C1690,930 1720,940 1735,955 C1745,965 1730,975 1705,975 C1675,970 1650,950 1640,935 Z" 
+          fill="#0e131d"/>
+    <!-- Casual leather sneaker / hiking shoe -->
+    <path d="M1470,955 C1460,960 1450,970 1455,980 C1460,985 1480,985 1495,975 C1495,965 1485,955 1470,955 Z" 
+          fill="#1f242d"/>
+    <path d="M1455,980 L1495,978" stroke="#cbd5e1" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- Main Torso: Sleek Black Hoodie -->
+    <path d="M1580,780 C1560,800 1545,830 1540,870 C1535,900 1545,925 1570,935 C1600,945 1650,940 1680,925 C1705,910 1715,880 1705,845 C1695,810 1675,785 1650,775 C1625,765 1595,770 1580,780 Z" 
+          fill="url(#hoodieGrad)"/>
+    
+    <!-- Natural fabric folds on the hoodie -->
+    <g stroke="#090a0d" stroke-width="2.5" opacity="0.8" stroke-linecap="round">
+      <path d="M1565,830 C1575,850 1590,870 1610,885"/>
+      <path d="M1650,820 C1640,845 1630,875 1635,910"/>
+      <path d="M1555,875 C1575,885 1600,890 1625,892"/>
+      <path d="M1650,865 C1670,875 1685,890 1690,910"/>
+    </g>
+
+    <!-- Golden sunset rim light on hoodie right shoulder & back -->
+    <path d="M1650,775 C1675,785 1695,810 1705,845 C1715,880 1705,910 1680,925" 
+          stroke="url(#hoodieRimLight)" stroke-width="3" fill="none" opacity="0.85"/>
+
+    <!-- Arms resting forward toward laptop on lap -->
+    <!-- Left arm -->
+    <path d="M1560,810 C1540,830 1525,855 1515,880 C1510,895 1515,905 1530,905 C1545,905 1560,890 1570,870 Z" 
+          fill="#15171d"/>
+    <!-- Right arm -->
+    <path d="M1670,810 C1665,835 1650,860 1635,880 C1625,895 1615,905 1600,905 C1590,900 1595,890 1605,875 Z" 
+          fill="#1b1e26"/>
+
+    <!-- Hands resting on laptop keyboard -->
+    <!-- Natural Indian skin tone (warm caramel / deep amber highlight) -->
+    <path d="M1525,895 C1520,900 1520,908 1528,910 C1535,912 1545,908 1548,902 C1545,898 1535,895 1525,895 Z" 
+          fill="#9a5a3a"/>
+    <path d="M1595,895 C1590,900 1592,908 1600,910 C1608,912 1618,908 1620,902 C1615,898 1605,895 1595,895 Z" 
+          fill="#9a5a3a"/>
+
+    <!-- Head & Neck -->
+    <!-- Neck -->
+    <path d="M1605,760 L1625,760 L1628,780 L1602,780 Z" fill="#884d30"/>
+    <!-- Natural Indian facial profile looking down slightly toward laptop -->
+    <!-- Calm, thoughtful, focused expression -->
+    <path d="M1600,710 C1595,725 1595,745 1605,758 C1615,765 1630,765 1638,755 C1645,745 1645,720 1635,710 C1625,700 1608,700 1600,710 Z" 
+          fill="#a05e3d"/>
+    
+    <!-- Defined jawline & profile -->
+    <path d="M1598,728 L1592,732 L1598,735 L1597,742 L1608,750" 
+          stroke="#743f25" stroke-width="1.2" fill="none"/>
+
+    <!-- Natural Dark Hair & Groomed Beard Profile -->
+    <path d="M1600,712 C1595,705 1602,692 1615,690 C1630,688 1642,695 1645,708 C1648,718 1642,725 1640,732 C1635,728 1630,725 1628,715 C1620,715 1610,712 1600,712 Z" 
+          fill="#121318"/>
+    <!-- Soft stubble/beard contour -->
+    <path d="M1597,738 C1598,746 1605,752 1615,754 C1622,752 1628,745 1630,738" 
+          stroke="#121318" stroke-width="2" fill="none" opacity="0.75"/>
+
+    <!-- Golden Rim Light on hair and cheek facing the sunset -->
+    <path d="M1618,690 C1630,688 1642,695 1645,708 C1648,718 1645,730 1640,740" 
+          stroke="#fde047" stroke-width="2" fill="none" opacity="0.85" filter="url(#softDepth)"/>
+    <path d="M1635,725 C1638,735 1635,745 1628,752" 
+          stroke="#fed7aa" stroke-width="1.5" fill="none" opacity="0.7"/>
+
+    <!-- Hood pulled down naturally around collar -->
+    <path d="M1585,765 C1575,775 1578,790 1590,795 C1615,800 1645,800 1665,790 C1675,785 1675,772 1660,765 C1640,760 1605,758 1585,765 Z" 
+          fill="#101217"/>
+    <path d="M1660,768 C1672,775 1672,785 1665,790" 
+          stroke="#f59e0b" stroke-width="2" fill="none" opacity="0.6"/>
+
+    <!-- MODERN SLIM LAPTOP (Resting on lap, screen facing him) -->
+    <!-- Laptop Base (Keyboard Deck) -->
+    <polygon points="1510,900 1630,892 1645,910 1525,918" fill="url(#laptopBody)"/>
+    <polygon points="1525,918 1645,910 1643,914 1523,922" fill="#1e293b"/>
+
+    <!-- Laptop Screen Display (Open at ~115 degree angle) -->
+    <polygon points="1515,900 1635,892 1630,830 1510,838" fill="#0f172a"/>
+    <!-- Outer screen lid bezel -->
+    <polygon points="1508,837 1632,829 1637,893 1513,901" fill="none" stroke="#475569" stroke-width="1"/>
+
+    <!-- Vibrant Code Editor Screen Output (Live Code from Zero IDE glow) -->
+    <polygon points="1514,840 1628,832 1625,890 1511,898" fill="#030712"/>
+    
+    <!-- Code syntax highlight lines on laptop display -->
+    <g stroke-linecap="round" stroke-width="1.8" opacity="0.9">
+      <!-- Keyword / import (purple) -->
+      <line x1="1518" y1="846" x2="1538" y2="845" stroke="#c084fc"/>
+      <line x1="1542" y1="844" x2="1568" y2="843" stroke="#60a5fa"/>
+      <!-- Class definition (yellow/cyan) -->
+      <line x1="1518" y1="853" x2="1548" y2="851" stroke="#fde047"/>
+      <line x1="1552" y1="851" x2="1585" y2="849" stroke="#38bdf8"/>
+      <!-- Code body logic (emerald/white) -->
+      <line x1="1524" y1="860" x2="1555" y2="858" stroke="#4ade80"/>
+      <line x1="1560" y1="858" x2="1605" y2="855" stroke="#e2e8f0"/>
+      <line x1="1524" y1="867" x2="1580" y2="864" stroke="#e2e8f0"/>
+      <!-- Return statement (rose/amber) -->
+      <line x1="1524" y1="874" x2="1548" y2="872" stroke="#f43f5e"/>
+      <line x1="1552" y1="872" x2="1595" y2="869" stroke="#fbbf24"/>
+      <!-- Status bar -->
+      <line x1="1516" y1="886" x2="1620" y2="880" stroke="#10b981" stroke-width="1"/>
+    </g>
+
+    <!-- Gentle Laptop Screen Glow onto Programmer's Hands and Face -->
+    <circle cx="1565" cy="860" r="95" fill="url(#screenCyanGlow)"/>
+
+    <!-- Stainless Steel Travel Mug on the rock nearby -->
+    <rect x="1750" y="885" width="22" height="34" rx="4" fill="#64748b"/>
+    <rect x="1748" y="880" width="26" height="6" rx="2" fill="#334155"/>
+    <!-- Sun reflection on mug -->
+    <line x1="1766" y1="887" x2="1766" y2="915" stroke="#fef08a" stroke-width="2" opacity="0.65"/>
+  </g>
+
+  <!-- 10. FLOATING GOLDEN DUST PARTICLES & ATMOSPHERIC BOKEH (Subtle & Organic) -->
+  <g fill="#fef08a" opacity="0.45" filter="url(#softDepth)">
+    <circle cx="1480" cy="790" r="2"/>
+    <circle cx="1520" cy="740" r="2.5"/>
+    <circle cx="1630" cy="670" r="3"/>
+    <circle cx="1580" cy="720" r="1.5"/>
+    <circle cx="1440" cy="820" r="2"/>
+    <circle cx="1680" cy="750" r="2"/>
+    <circle cx="1380" cy="780" r="3.5"/>
+    <circle cx="1720" cy="810" r="1.8"/>
+    <circle cx="1320" cy="820" r="2.5"/>
+    <circle cx="1250" cy="750" r="3"/>
+  </g>
+
+  <!-- 11. LEFT-SIDE DARK CINEMATIC OVERLAY -->
+  <!-- Crucial: Keeps the left side deep, clean, uncluttered and dark for white typography and headings -->
+  <rect x="0" y="0" width="1350" height="1080" fill="url(#leftDarkCinematic)"/>
+
+  <!-- 12. BOTTOM CINEMATIC GRADIENT -->
+  <!-- Blends seamlessly into page background without harsh cuts -->
+  <rect x="0" y="700" width="1920" height="380" fill="url(#bottomDarkCinematic)"/>
+</svg>

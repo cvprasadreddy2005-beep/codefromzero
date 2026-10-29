@@ -1,0 +1,2107 @@
+# MASTER PROMPT: CODE FROM ZERO — COMPLETE PROGRAMMING LEARNING PLATFORM
+
+## 1. PROJECT OBJECTIVE
+
+Upgrade my existing educational website, **Code From Zero**, into a comprehensive programming education platform for absolute beginners, students, aspiring developers, and self-learners.
+
+Create six separate, complete tutorial sections:
+
+1. Python Tutorials
+2. JavaScript Tutorials
+3. SQL & Databases Tutorials
+4. C Programming Tutorials
+5. C++ Programming Tutorials
+6. Git & GitHub Tutorials
+
+Each subject must have its own dedicated page, syllabus, lessons, examples, practice questions, quizzes, projects, and progress tracking.
+
+**Important:** Do not combine all programming languages into one tutorial page. Keep every subject separate while maintaining a consistent design throughout the website.
+
+Do not merely generate a list of topics. Build an organized, functional learning platform with meaningful educational content.
+
+---
+
+# 2. WEBSITE NAVIGATION
+
+Add a main navigation item called **Programming Tutorials**.
+
+When users open it, display these six separate options:
+
+* Python
+* JavaScript
+* SQL & Databases
+* C Programming
+* C++ Programming
+* Git & GitHub
+
+Each option should open its own dedicated tutorial page.
+
+Create individual routes or pages such as:
+
+* `/tutorials/python`
+* `/tutorials/javascript`
+* `/tutorials/sql-databases`
+* `/tutorials/c`
+* `/tutorials/cpp`
+* `/tutorials/git-github`
+
+Adapt these routes to the existing website's framework and routing system.
+
+Each tutorial page must include:
+
+* Introduction and overview
+* What the technology is
+* Why it is useful
+* Prerequisites
+* Complete syllabus
+* Beginner-to-advanced roadmap
+* Topic navigation
+* Search bar
+* Topic explanations
+* Syntax-highlighted code
+* Complete working examples
+* Expected outputs
+* Practice exercises
+* Quizzes
+* Mini projects
+* Progress tracking
+* Previous and next lesson buttons
+* Related lessons
+* Recommended next steps
+
+---
+
+# 3. STANDARD FORMAT FOR EVERY LESSON
+
+Every topic in all six tutorial sections must follow the same educational structure.
+
+### 1. Topic Name
+
+Display the exact name of the lesson.
+
+### 2. Meaning
+
+Explain what the topic name means in simple English.
+
+### 3. Definition
+
+Give a clear, technically correct definition.
+
+### 4. Why It Is Used
+
+Explain why programmers need this concept and what problem it solves.
+
+### 5. Detailed Explanation
+
+Explain the concept step by step using beginner-friendly language.
+
+Define new technical words instead of assuming learners already know them.
+
+### 6. Syntax
+
+Show the correct syntax in a code block.
+
+Explain what each part of the syntax means.
+
+### 7. Example Code
+
+Provide a complete, valid, working example.
+
+Include all necessary imports, declarations, functions, classes, or setup instructions.
+
+### 8. Line-by-Line Explanation
+
+Explain each important line of code, including keywords, variables, operators, functions, brackets, braces, indentation, punctuation, and symbols.
+
+### 9. Output
+
+Display the expected output in a clearly visible terminal-style box.
+
+For database lessons, also show relevant tables before and after the query.
+
+For Git lessons, show example commands and their expected results.
+
+### 10. Real-World Applications
+
+Explain where the concept is used in real projects.
+
+### 11. Common Mistakes
+
+Show frequent beginner mistakes, explain why they happen, and provide corrected examples.
+
+### 12. Practice Exercises
+
+Provide:
+
+* Easy exercises
+* Intermediate exercises
+* Challenging exercises
+
+### 13. Quiz
+
+Include multiple-choice questions, correct answers, and explanations.
+
+### 14. Summary
+
+Summarize the key concepts.
+
+### 15. Related Topics
+
+Link to relevant lessons and suggest what to learn next.
+
+**Teaching rule:** Every lesson must be understandable to a complete beginner. Use simple English, practical examples, and gradual progression from easy to advanced concepts.
+
+---
+
+# 4. PYTHON TUTORIALS — COMPLETE SYLLABUS
+
+Create a dedicated Python learning section with the following modules.
+
+## Module 1: Introduction to Python
+
+1. What is programming?
+2. What is Python?
+3. Meaning and definition of Python
+4. History of Python
+5. Features of Python
+6. Advantages and limitations
+7. Applications of Python
+8. Python versus Java
+9. Python versus JavaScript
+10. Python versus C and C++
+11. Python versions
+12. How Python executes programs
+13. Interpreters and programming environments
+14. Python career opportunities
+
+## Module 2: Installation and Setup
+
+1. Installing Python
+2. Checking the Python version
+3. Installing VS Code
+4. Setting up Python in VS Code
+5. Installing Python extensions
+6. Running Python files
+7. Using the terminal
+8. Interactive Python shell
+9. Creating `.py` files
+10. Understanding virtual environments
+11. Installing packages with pip
+12. Fixing common installation errors
+
+## Module 3: Python Syntax and Basics
+
+1. First Python program
+2. Python syntax rules
+3. Indentation
+4. Comments
+5. Variables
+6. Variable naming rules
+7. Keywords
+8. Statements and expressions
+9. Dynamic typing
+10. Constants by convention
+11. Multiple variable assignments
+12. Python input and output
+13. `print()`
+14. `input()`
+15. Formatted strings and f-strings
+
+## Module 4: Python Data Types
+
+1. What are data types?
+2. Integers
+3. Floating-point numbers
+4. Complex numbers
+5. Strings
+6. Booleans
+7. Lists
+8. Tuples
+9. Sets
+10. Dictionaries
+11. The `None` value
+12. The `type()` function
+13. Type conversion
+14. Mutable versus immutable objects
+15. Identity and equality
+16. `is` versus `==`
+
+## Module 5: Python Operators
+
+1. Arithmetic operators
+2. Assignment operators
+3. Comparison operators
+4. Logical operators
+5. Bitwise operators
+6. Membership operators
+7. Identity operators
+8. Operator precedence
+9. Augmented assignment
+10. Practical operator programs
+
+## Module 6: Conditional Statements
+
+1. `if`
+2. `if-else`
+3. `elif`
+4. Nested conditions
+5. Truthy and falsy values
+6. Conditional expressions
+7. Grade calculator
+8. Even or odd
+9. Largest of three numbers
+10. Leap-year checker
+11. Simple calculator
+
+## Module 7: Loops
+
+1. What is a loop?
+2. `for` loops
+3. `while` loops
+4. `range()`
+5. Nested loops
+6. `break`
+7. `continue`
+8. `pass`
+9. Loop control and tracing
+10. Infinite loops
+11. Number patterns
+12. Star patterns
+13. Factorial
+14. Fibonacci sequence
+15. Prime-number checking
+
+## Module 8: Strings
+
+1. Creating strings
+2. String indexing
+3. String slicing
+4. String methods
+5. String concatenation
+6. String formatting
+7. Escape characters
+8. Multiline strings
+9. String immutability
+10. Searching strings
+11. Replacing text
+12. Splitting and joining
+13. Reversing a string
+14. Palindrome checking
+15. Counting characters and words
+16. Character frequency
+17. Checking anagrams
+
+## Module 9: Lists, Tuples, Sets, and Dictionaries
+
+1. Lists
+2. List indexing and slicing
+3. Adding list elements
+4. Removing elements
+5. Updating lists
+6. Sorting lists
+7. List comprehensions
+8. Nested lists
+9. Tuples
+10. Tuple packing and unpacking
+11. Sets
+12. Set operations
+13. Dictionaries
+14. Dictionary keys and values
+15. Dictionary methods
+16. Nested dictionaries
+17. Iterating over collections
+18. Choosing the correct collection
+19. Removing duplicates
+20. Frequency counting
+
+## Module 10: Functions
+
+1. What is a function?
+2. Defining functions
+3. Calling functions
+4. Parameters and arguments
+5. Return values
+6. Default parameters
+7. Keyword arguments
+8. Positional arguments
+9. Variable-length arguments
+10. `*args`
+11. `**kwargs`
+12. Scope of variables
+13. Local and global variables
+14. Lambda functions
+15. Recursion
+16. Docstrings
+17. Type hints
+18. Common function mistakes
+
+## Module 11: Modules and Packages
+
+1. What is a module?
+2. Importing modules
+3. `import`
+4. `from ... import`
+5. Aliases
+6. Built-in modules
+7. Creating custom modules
+8. Packages
+9. `__name__`
+10. `__main__`
+11. Installing packages
+12. pip
+13. Virtual environments
+14. Dependency management
+
+## Module 12: File Handling
+
+1. Files and directories
+2. Opening files
+3. Reading files
+4. Writing files
+5. Appending content
+6. File modes
+7. The `with` statement
+8. Text files
+9. CSV files
+10. JSON files
+11. Exception handling with files
+12. File paths
+13. `pathlib`
+14. File-management mini project
+
+## Module 13: Exception Handling
+
+1. Errors versus exceptions
+2. Syntax errors
+3. Runtime errors
+4. Logical errors
+5. `try`
+6. `except`
+7. Multiple exception types
+8. `else`
+9. `finally`
+10. `raise`
+11. Custom exceptions
+12. Debugging Python programs
+13. Exception-handling best practices
+
+## Module 14: Object-Oriented Programming
+
+1. What is OOP?
+2. Classes
+3. Objects
+4. Attributes
+5. Methods
+6. Constructors
+7. `self`
+8. Instance attributes
+9. Class attributes
+10. Instance methods
+11. Class methods
+12. Static methods
+13. Encapsulation
+14. Inheritance
+15. Multiple inheritance
+16. Polymorphism
+17. Method overriding
+18. Abstraction
+19. Abstract base classes
+20. Properties
+21. Special methods
+22. `__str__`
+23. `__repr__`
+24. Composition
+25. OOP projects
+
+## Module 15: Advanced Python
+
+1. Iterators
+2. Iterables
+3. Generators
+4. `yield`
+5. Decorators
+6. Closures
+7. Context managers
+8. Regular expressions
+9. Type annotations
+10. Dataclasses
+11. Enumerations
+12. Shallow and deep copying
+13. Memory management
+14. Garbage collection
+15. Functional programming concepts
+16. Concurrency introduction
+17. Threading
+18. Multiprocessing
+19. Asynchronous programming
+20. `async` and `await`
+
+## Module 16: Python Libraries and Applications
+
+1. `math`
+2. `random`
+3. `datetime`
+4. `collections`
+5. `itertools`
+6. `functools`
+7. `pathlib`
+8. `json`
+9. `csv`
+10. NumPy introduction
+11. Pandas introduction
+12. Matplotlib introduction
+13. Requests and HTTP basics
+14. Working with APIs
+15. Flask or FastAPI introduction
+16. Python testing with pytest
+
+## Module 17: Python Projects
+
+1. Calculator
+2. Number guessing game
+3. Quiz application
+4. Password generator
+5. To-do list
+6. Contact book
+7. Expense tracker
+8. File organizer
+9. Weather application using an API
+10. Student management system
+11. CSV data analyzer
+12. Web application
+13. Final portfolio project
+
+For every project, include requirements, concepts, complete code, setup, explanation, expected output, and improvements.
+
+---
+
+# 5. JAVASCRIPT TUTORIALS — COMPLETE SYLLABUS
+
+Create a separate JavaScript learning section.
+
+## Module 1: JavaScript Introduction
+
+1. What is JavaScript?
+2. Meaning and definition
+3. History of JavaScript
+4. JavaScript applications
+5. JavaScript versus Java
+6. JavaScript versus Python
+7. JavaScript in web development
+8. Browser JavaScript and server-side JavaScript
+9. JavaScript engines
+10. ECMAScript
+11. How JavaScript runs
+
+## Module 2: Setup and First Program
+
+1. Writing JavaScript in HTML
+2. Internal JavaScript
+3. External JavaScript files
+4. The `<script>` element
+5. Using the browser console
+6. Running JavaScript in VS Code
+7. Introduction to Node.js
+8. Running JavaScript with Node.js
+9. Strict mode
+10. JavaScript comments
+
+## Module 3: Variables and Data Types
+
+1. Variables
+2. `var`
+3. `let`
+4. `const`
+5. Variable scope
+6. Global and local scope
+7. Primitive types
+8. Strings
+9. Numbers
+10. BigInt
+11. Booleans
+12. Undefined
+13. Null
+14. Symbols
+15. Objects
+16. `typeof`
+17. Type conversion
+18. Type coercion
+19. Truthy and falsy values
+20. Equality operators
+
+## Module 4: Operators and Conditions
+
+1. Arithmetic operators
+2. Assignment operators
+3. Comparison operators
+4. Logical operators
+5. Ternary operator
+6. Nullish coalescing
+7. Optional chaining
+8. Bitwise operators
+9. `if`
+10. `if-else`
+11. `else-if`
+12. `switch`
+13. Nested conditions
+14. Operator precedence
+
+## Module 5: Loops
+
+1. `for`
+2. `while`
+3. `do-while`
+4. `for...of`
+5. `for...in`
+6. Nested loops
+7. `break`
+8. `continue`
+9. Loop tracing
+10. Pattern programs
+11. Number-based programs
+
+## Module 6: Functions
+
+1. Function declarations
+2. Function expressions
+3. Arrow functions
+4. Parameters and arguments
+5. Return values
+6. Default parameters
+7. Rest parameters
+8. Callback functions
+9. Higher-order functions
+10. Anonymous functions
+11. Scope
+12. Closures
+13. Recursion
+14. Hoisting
+15. The `this` keyword
+
+## Module 7: Arrays
+
+1. Creating arrays
+2. Array indexing
+3. Array length
+4. Adding and removing elements
+5. `push()`
+6. `pop()`
+7. `shift()`
+8. `unshift()`
+9. `slice()`
+10. `splice()`
+11. `map()`
+12. `filter()`
+13. `reduce()`
+14. `find()`
+15. `findIndex()`
+16. `some()`
+17. `every()`
+18. `sort()`
+19. `forEach()`
+20. Array destructuring
+21. Spread syntax
+22. Array copying
+23. Removing duplicates
+24. Common array problems
+
+## Module 8: Objects
+
+1. Creating objects
+2. Properties
+3. Methods
+4. Accessing properties
+5. Updating properties
+6. Adding and deleting properties
+7. Object destructuring
+8. Object methods
+9. `Object.keys()`
+10. `Object.values()`
+11. `Object.entries()`
+12. Spread syntax
+13. Object references
+14. Shallow copying
+15. Optional chaining
+16. Property shorthand
+17. Getters and setters
+18. Prototypes
+19. Prototype inheritance
+20. Classes and objects
+
+## Module 9: Strings and Numbers
+
+1. String methods
+2. Template literals
+3. String interpolation
+4. String searching
+5. String slicing
+6. Replacing text
+7. Splitting and joining
+8. Number conversion
+9. `Math`
+10. Rounding
+11. Random numbers
+12. Date and time
+13. Regular expressions
+14. Validation examples
+
+## Module 10: DOM Manipulation
+
+1. What is the DOM?
+2. HTML elements and the DOM
+3. Selecting elements
+4. `getElementById()`
+5. `querySelector()`
+6. `querySelectorAll()`
+7. Changing text
+8. Changing HTML
+9. Changing CSS styles
+10. Adding and removing classes
+11. Creating elements
+12. Appending elements
+13. Removing elements
+14. Attributes
+15. DOM traversal
+16. Event listeners
+17. Handling clicks
+18. Keyboard events
+19. Form events
+20. Event bubbling
+21. Event delegation
+22. Building an interactive page
+
+## Module 11: Events and Forms
+
+1. What are events?
+2. Mouse events
+3. Keyboard events
+4. Form submission
+5. Input validation
+6. Preventing default behavior
+7. Event objects
+8. FormData
+9. Error messages
+10. Accessible form interactions
+
+## Module 12: Asynchronous JavaScript
+
+1. Synchronous versus asynchronous code
+2. Callbacks
+3. Callback problems
+4. Promises
+5. Promise states
+6. `.then()`
+7. `.catch()`
+8. `.finally()`
+9. `async`
+10. `await`
+11. `fetch()`
+12. HTTP requests
+13. JSON
+14. API integration
+15. Error handling
+16. Event loop
+17. Microtasks and macrotasks
+18. Timers
+19. Loading and error states
+
+## Module 13: Modern JavaScript
+
+1. ES modules
+2. `import` and `export`
+3. Destructuring
+4. Spread syntax
+5. Rest syntax
+6. Template literals
+7. Default parameters
+8. Optional chaining
+9. Nullish coalescing
+10. Classes
+11. Inheritance
+12. Private class fields
+13. Iterators
+14. Generators
+15. Symbols
+16. Maps and Sets
+17. WeakMap and WeakSet
+18. Error handling
+
+## Module 14: Browser Storage and Web APIs
+
+1. Local storage
+2. Session storage
+3. Cookies introduction
+4. JSON serialization
+5. Browser history
+6. Clipboard API
+7. Timers
+8. Geolocation API
+9. Web Storage security
+10. Browser compatibility
+
+## Module 15: JavaScript Debugging and Testing
+
+1. Browser developer tools
+2. Console methods
+3. Breakpoints
+4. Reading errors
+5. Debugging logical errors
+6. Unit testing introduction
+7. Jest or Vitest introduction
+8. Test cases
+9. Assertions
+10. Code quality and formatting
+
+## Module 16: JavaScript Projects
+
+1. Digital clock
+2. Calculator
+3. To-do list
+4. Quiz application
+5. Password generator
+6. Form validation
+7. Weather application
+8. Expense tracker
+9. Searchable list
+10. Notes application
+11. Interactive portfolio
+12. API-powered application
+13. Final JavaScript project
+
+Explain the HTML and CSS requirements whenever a JavaScript example depends on them.
+
+---
+
+# 6. SQL & DATABASES TUTORIALS — COMPLETE SYLLABUS
+
+Create a separate **SQL & Databases** section.
+
+Use a consistent primary SQL dialect, such as PostgreSQL, and clearly label examples that differ in MySQL, SQLite, or SQL Server.
+
+## Module 1: Database Fundamentals
+
+1. What is data?
+2. What is a database?
+3. What is a DBMS?
+4. What is an RDBMS?
+5. SQL meaning and definition
+6. Why databases are used
+7. Tables, rows, and columns
+8. Records and fields
+9. Primary keys
+10. Foreign keys
+11. Relationships
+12. Relational versus non-relational databases
+13. PostgreSQL introduction
+14. MySQL introduction
+15. SQLite introduction
+16. SQL versus programming languages
+
+## Module 2: Database Setup
+
+1. Installing PostgreSQL
+2. Installing MySQL
+3. SQLite introduction
+4. Database clients
+5. Creating a database
+6. Connecting to a database
+7. Using a SQL editor
+8. Executing SQL queries
+9. Understanding database schemas
+10. Troubleshooting connection errors
+
+## Module 3: Basic SQL Commands
+
+1. SQL syntax
+2. SQL statements
+3. `CREATE DATABASE`
+4. `CREATE TABLE`
+5. `INSERT INTO`
+6. `SELECT`
+7. `UPDATE`
+8. `DELETE`
+9. `ALTER TABLE`
+10. `DROP TABLE`
+11. `TRUNCATE`
+12. `WHERE`
+13. `ORDER BY`
+14. `LIMIT`
+15. `DISTINCT`
+16. Aliases with `AS`
+
+## Module 4: SQL Data Types and Constraints
+
+1. Integer types
+2. Decimal and numeric types
+3. Character types
+4. Text
+5. Boolean
+6. Date and time types
+7. `NULL`
+8. `NOT NULL`
+9. `UNIQUE`
+10. `PRIMARY KEY`
+11. `FOREIGN KEY`
+12. `CHECK`
+13. `DEFAULT`
+14. Auto-generated identifiers
+15. Referential integrity
+
+## Module 5: Filtering and Operators
+
+1. Comparison operators
+2. Logical operators
+3. `AND`
+4. `OR`
+5. `NOT`
+6. `BETWEEN`
+7. `IN`
+8. `LIKE`
+9. Wildcards
+10. `IS NULL`
+11. `IS NOT NULL`
+12. Operator precedence
+13. Combining filters
+
+## Module 6: SQL Functions
+
+1. Aggregate functions
+2. `COUNT()`
+3. `SUM()`
+4. `AVG()`
+5. `MIN()`
+6. `MAX()`
+7. String functions
+8. Numeric functions
+9. Date and time functions
+10. `COALESCE`
+11. `NULLIF`
+12. Conditional expressions
+13. `CASE`
+14. Type conversion
+
+## Module 7: Grouping and Aggregation
+
+1. `GROUP BY`
+2. `HAVING`
+3. Aggregate queries
+4. Grouping by multiple columns
+5. Filtering groups
+6. Counting categories
+7. Calculating averages
+8. Sales summaries
+9. Department-wise reports
+10. Common grouping mistakes
+
+## Module 8: SQL Joins
+
+1. What are joins?
+2. `INNER JOIN`
+3. `LEFT JOIN`
+4. `RIGHT JOIN`
+5. `FULL OUTER JOIN`
+6. `CROSS JOIN`
+7. Self joins
+8. Joining multiple tables
+9. Primary-key and foreign-key relationships
+10. Common join mistakes
+11. Practical join exercises
+
+## Module 9: Subqueries and Advanced Queries
+
+1. What is a subquery?
+2. Scalar subqueries
+3. Multi-row subqueries
+4. Correlated subqueries
+5. `EXISTS`
+6. `NOT EXISTS`
+7. Common table expressions
+8. `WITH`
+9. Recursive CTE introduction
+10. Set operations
+11. `UNION`
+12. `UNION ALL`
+13. `INTERSECT`
+14. `EXCEPT`
+15. Window functions
+16. `ROW_NUMBER()`
+17. `RANK()`
+18. `DENSE_RANK()`
+19. `OVER`
+20. `PARTITION BY`
+
+## Module 10: Database Design
+
+1. Database schema
+2. Entity-relationship modeling
+3. Entities and attributes
+4. One-to-one relationships
+5. One-to-many relationships
+6. Many-to-many relationships
+7. Junction tables
+8. Database normalization
+9. First normal form
+10. Second normal form
+11. Third normal form
+12. Denormalization
+13. Database design mistakes
+14. Designing a student database
+15. Designing an e-commerce database
+
+## Module 11: Transactions and Database Safety
+
+1. What is a transaction?
+2. ACID properties
+3. `BEGIN`
+4. `COMMIT`
+5. `ROLLBACK`
+6. Isolation levels
+7. Concurrent transactions
+8. Deadlocks introduction
+9. Constraints and data integrity
+10. SQL injection
+11. Parameterized queries
+12. Least-privilege access
+13. Backups and recovery
+
+## Module 12: Indexes and Performance
+
+1. What is an index?
+2. Why indexes are used
+3. Creating indexes
+4. Unique indexes
+5. Composite indexes
+6. Index trade-offs
+7. Query performance
+8. `EXPLAIN`
+9. Query optimization basics
+10. Avoiding unnecessary queries
+
+## Module 13: Database Administration Basics
+
+1. Database users and roles
+2. Permissions
+3. Database backup
+4. Database restoration
+5. Importing data
+6. Exporting data
+7. CSV files
+8. Data validation
+9. Monitoring basic performance
+10. Development versus production databases
+
+## Module 14: Connecting Databases to Applications
+
+1. Connecting Python to a database
+2. Connecting JavaScript applications to a database through a backend
+3. Connecting Java to a database using JDBC
+4. Connection strings
+5. Environment variables
+6. Prepared statements
+7. CRUD operations
+8. Database migrations introduction
+9. Connection pooling
+10. Error handling
+11. Secure database configuration
+
+Never expose database passwords in frontend code or commit secrets to GitHub.
+
+## Module 15: SQL Projects
+
+1. Student management database
+2. Employee database
+3. Library database
+4. Hospital management database
+5. Online shopping database
+6. Banking database
+7. Inventory database
+8. Sales analysis database
+9. Student results reporting system
+10. Final relational database project
+
+For every SQL lesson, show the sample table, query, result table, and a step-by-step explanation of how the query works.
+
+---
+
+# 7. C PROGRAMMING TUTORIALS — COMPLETE SYLLABUS
+
+Create a separate C programming section.
+
+## Module 1: Introduction to C
+
+1. What is C?
+2. Meaning and definition
+3. History of C
+4. Features of C
+5. Applications of C
+6. C versus C++
+7. C versus Java
+8. Compilers and interpreters
+9. Source code and executable files
+10. C programming career applications
+
+## Module 2: Installation and Setup
+
+1. Installing GCC
+2. Installing MinGW on Windows
+3. Setting up VS Code
+4. Configuring the C compiler
+5. Creating `.c` files
+6. Compiling C programs
+7. Running executable files
+8. Understanding compiler errors
+9. Troubleshooting configuration problems
+
+## Module 3: C Syntax and First Program
+
+1. Structure of a C program
+2. `#include`
+3. Header files
+4. `main()`
+5. Statements
+6. Braces and semicolons
+7. Comments
+8. Keywords
+9. Identifiers
+10. Compilation process
+11. Preprocessor basics
+12. `printf()`
+13. `scanf()`
+14. Format specifiers
+
+## Module 4: Variables and Data Types
+
+1. Variables
+2. Declaration and initialization
+3. Integer types
+4. Character types
+5. Floating-point types
+6. `void`
+7. Signed and unsigned types
+8. Constants
+9. `const`
+10. `sizeof`
+11. Type conversion
+12. Type casting
+13. Format specifiers
+14. Variable scope and lifetime
+
+## Module 5: Operators
+
+1. Arithmetic operators
+2. Relational operators
+3. Logical operators
+4. Assignment operators
+5. Increment and decrement
+6. Bitwise operators
+7. Conditional operator
+8. Operator precedence
+9. Type conversions in expressions
+10. Practical programs
+
+## Module 6: Conditional Statements
+
+1. `if`
+2. `if-else`
+3. `else-if`
+4. Nested conditions
+5. `switch`
+6. `break`
+7. `default`
+8. Conditional operator
+9. Grade calculator
+10. Even or odd
+11. Largest of three numbers
+12. Simple calculator
+
+## Module 7: Loops
+
+1. `for`
+2. `while`
+3. `do-while`
+4. Nested loops
+5. `break`
+6. `continue`
+7. Infinite loops
+8. Number programs
+9. Pattern programs
+10. Factorial
+11. Fibonacci series
+12. Prime-number checking
+13. Reversing numbers
+14. Palindrome checking
+
+## Module 8: Arrays
+
+1. Array definition
+2. Declaration and initialization
+3. Array indexing
+4. One-dimensional arrays
+5. Two-dimensional arrays
+6. Multidimensional arrays
+7. Array traversal
+8. Array input and output
+9. Sum and average
+10. Minimum and maximum
+11. Reversing arrays
+12. Sorting arrays
+13. Searching arrays
+14. Passing arrays to functions
+15. Common array errors
+
+## Module 9: Strings
+
+1. Character arrays
+2. String declaration
+3. Null terminator
+4. Reading strings
+5. Printing strings
+6. String length
+7. `strlen()`
+8. `strcpy()`
+9. `strcat()`
+10. `strcmp()`
+11. String input safety
+12. Reversing strings
+13. Palindrome strings
+14. Counting vowels
+15. Character frequency
+16. Common buffer errors
+
+## Module 10: Functions
+
+1. Function declaration
+2. Function definition
+3. Function calls
+4. Parameters and arguments
+5. Return values
+6. Void functions
+7. Function prototypes
+8. Local variables
+9. Global variables
+10. Recursion
+11. Passing arguments by value
+12. Passing pointers
+13. Storage classes
+14. Header files
+15. Modular programming
+
+## Module 11: Pointers
+
+1. What is a pointer?
+2. Pointer declaration
+3. Address-of operator
+4. Dereference operator
+5. Pointer initialization
+6. Null pointers
+7. Pointer arithmetic
+8. Pointers and arrays
+9. Pointers and strings
+10. Pointers and functions
+11. Pointer-to-pointer
+12. `void` pointers
+13. Function pointers
+14. Common pointer mistakes
+15. Dangling pointers
+16. Undefined behavior
+17. Memory safety basics
+
+## Module 12: Structures and Unions
+
+1. Structures
+2. Defining a structure
+3. Creating structure variables
+4. Accessing structure members
+5. Arrays of structures
+6. Nested structures
+7. Pointers to structures
+8. The `typedef` keyword
+9. Unions
+10. Structures versus unions
+11. Enumerations
+12. Bit-fields introduction
+
+## Module 13: Dynamic Memory Allocation
+
+1. Stack versus heap memory
+2. Dynamic memory
+3. `malloc()`
+4. `calloc()`
+5. `realloc()`
+6. `free()`
+7. Memory leaks
+8. Allocation failures
+9. Safe allocation patterns
+10. Use-after-free errors
+11. Memory debugging basics
+
+## Module 14: File Handling
+
+1. File pointers
+2. Opening files
+3. Closing files
+4. Reading files
+5. Writing files
+6. Appending data
+7. `fopen()`
+8. `fclose()`
+9. `fprintf()`
+10. `fscanf()`
+11. `fgets()`
+12. `fputs()`
+13. Binary files
+14. Error handling
+15. File-based projects
+
+## Module 15: Advanced C
+
+1. Preprocessor directives
+2. Macros
+3. Conditional compilation
+4. Header guards
+5. Command-line arguments
+6. Bit manipulation
+7. Function pointers
+8. Multi-file programs
+9. Build process
+10. Compiler warnings
+11. Undefined behavior
+12. Portable C programming
+13. Debugging with GDB
+14. Standard C library overview
+
+## Module 16: C Projects
+
+1. Calculator
+2. Student marks system
+3. Number guessing game
+4. Employee record system
+5. Contact book
+6. Library management system
+7. File-based student records
+8. Simple banking simulation
+9. Inventory system
+10. Final C programming project
+
+Use standard C and identify the required language standard when features differ between versions. Never teach unsafe memory operations as recommended practice.
+
+---
+
+# 8. C++ PROGRAMMING TUTORIALS — COMPLETE SYLLABUS
+
+Create a dedicated C++ tutorial section.
+
+## Module 1: Introduction to C++
+
+1. What is C++?
+2. Meaning and definition
+3. History of C++
+4. Features of C++
+5. Applications of C++
+6. C versus C++
+7. C++ versus Java
+8. C++ versus Python
+9. Compilers
+10. C++ standards and versions
+11. Installing a C++ compiler
+
+## Module 2: First C++ Program
+
+1. Structure of a C++ program
+2. Header files
+3. `#include`
+4. `main()`
+5. `std::cout`
+6. `std::cin`
+7. `std::endl` and newline characters
+8. Namespaces
+9. Comments
+10. Compilation and execution
+11. Compiler errors
+12. VS Code setup
+
+## Module 3: Variables and Data Types
+
+1. Variables
+2. Primitive types
+3. Integer types
+4. Floating-point types
+5. Characters
+6. Booleans
+7. Strings
+8. Constants
+9. `const`
+10. `constexpr`
+11. Type conversion
+12. Casting
+13. `auto`
+14. Scope and lifetime
+15. `sizeof`
+
+## Module 4: Operators and Conditions
+
+1. Arithmetic operators
+2. Assignment operators
+3. Comparison operators
+4. Logical operators
+5. Bitwise operators
+6. Increment and decrement
+7. Ternary operator
+8. Operator precedence
+9. `if`
+10. `if-else`
+11. `else-if`
+12. `switch`
+13. Nested conditions
+14. Practice programs
+
+## Module 5: Loops
+
+1. `for`
+2. `while`
+3. `do-while`
+4. Range-based `for`
+5. Nested loops
+6. `break`
+7. `continue`
+8. Number programs
+9. Pattern programs
+10. Factorial
+11. Fibonacci series
+12. Prime numbers
+13. Palindrome numbers
+
+## Module 6: Functions
+
+1. Function declarations
+2. Function definitions
+3. Parameters and arguments
+4. Return values
+5. Function overloading
+6. Default arguments
+7. Inline functions
+8. Recursion
+9. References
+10. Pass-by-value
+11. Pass-by-reference
+12. Function templates
+13. Lambda expressions
+
+## Module 7: Arrays, Strings, and Collections
+
+1. C-style arrays
+2. Multidimensional arrays
+3. Character arrays
+4. `std::string`
+5. String methods
+6. `std::array`
+7. `std::vector`
+8. `std::list`
+9. `std::deque`
+10. `std::stack`
+11. `std::queue`
+12. `std::priority_queue`
+13. `std::set`
+14. `std::map`
+15. `std::unordered_map`
+16. `std::unordered_set`
+17. Iterators
+18. Range-based loops
+19. Sorting collections
+20. Common collection problems
+
+## Module 8: Pointers and References
+
+1. Pointer meaning
+2. Pointer declaration
+3. Address-of operator
+4. Dereferencing
+5. Null pointers
+6. `nullptr`
+7. Pointer arithmetic
+8. Arrays and pointers
+9. References
+10. Pointer versus reference
+11. Pointer-to-pointer
+12. Smart pointers
+13. `unique_ptr`
+14. `shared_ptr`
+15. `weak_ptr`
+16. Ownership and lifetime
+17. Dangling pointers
+18. Memory safety
+
+## Module 9: Object-Oriented Programming
+
+1. Classes
+2. Objects
+3. Access specifiers
+4. Public, private, and protected
+5. Constructors
+6. Destructors
+7. Copy constructors
+8. Move constructors
+9. `this` pointer
+10. Encapsulation
+11. Inheritance
+12. Multiple inheritance
+13. Polymorphism
+14. Function overriding
+15. Virtual functions
+16. Abstract classes
+17. Pure virtual functions
+18. Operator overloading
+19. Friend functions
+20. Static members
+21. Composition
+22. Aggregation
+23. Object slicing
+24. RAII
+25. Rule of Three, Five, and Zero
+
+## Module 10: Templates and Advanced Features
+
+1. Function templates
+2. Class templates
+3. Template parameters
+4. Specialization introduction
+5. Variadic templates
+6. Lambda expressions
+7. Exceptions
+8. `try`, `catch`, and `throw`
+9. Namespaces
+10. Enumerations
+11. `enum class`
+12. Type aliases
+13. `auto`
+14. `decltype`
+15. Range-based loops
+16. Move semantics
+17. Rvalue references
+18. Perfect forwarding introduction
+19. Concepts introduction
+20. Modern C++ overview
+
+## Module 11: File Handling
+
+1. File streams
+2. `ifstream`
+3. `ofstream`
+4. `fstream`
+5. Opening files
+6. Reading files
+7. Writing files
+8. Appending data
+9. File modes
+10. Error handling
+11. File-based applications
+
+## Module 12: Data Structures and Algorithms in C++
+
+1. Complexity analysis
+2. Big O notation
+3. Arrays
+4. Linked lists
+5. Stacks
+6. Queues
+7. Trees
+8. Binary search trees
+9. Heaps
+10. Graphs
+11. BFS
+12. DFS
+13. Linear search
+14. Binary search
+15. Sorting algorithms
+16. Recursion
+17. Backtracking
+18. Two-pointer technique
+19. Sliding window
+20. Greedy algorithms
+21. Dynamic programming
+22. Standard Template Library algorithms
+
+## Module 13: C++ Projects
+
+1. Calculator
+2. Student management system
+3. Banking system
+4. Library management system
+5. Inventory system
+6. Contact book
+7. File-based record system
+8. Quiz application
+9. Expense tracker
+10. DSA practice application
+11. Final C++ project
+
+Use modern, idiomatic C++ and explain which language standard is required for version-specific features.
+
+Prefer safe resource management, standard library containers, and smart pointers where appropriate.
+
+---
+
+# 9. GIT & GITHUB TUTORIALS — COMPLETE SYLLABUS
+
+Create a separate tutorial section called **Git & GitHub**.
+
+Teach Git and GitHub from absolute beginner level, including installation, commands, examples, screenshots or diagrams where appropriate, and practical repository exercises.
+
+## Module 1: Introduction to Version Control
+
+1. What is version control?
+2. What is Git?
+3. What is GitHub?
+4. Git versus GitHub
+5. Why developers use version control
+6. Local and remote repositories
+7. Repository meaning
+8. Working directory
+9. Staging area
+10. Commit history
+11. Branches
+12. Collaboration basics
+
+## Module 2: Installation and Setup
+
+1. Installing Git on Windows
+2. Installing Git on macOS
+3. Installing Git on Linux
+4. Checking the Git version
+5. Configuring username
+6. Configuring email
+7. Git configuration
+8. Git Bash
+9. Terminal commands
+10. VS Code Git integration
+11. GitHub account setup
+12. Authentication options
+
+## Module 3: Essential Git Commands
+
+1. `git init`
+2. `git status`
+3. `git add`
+4. `git commit`
+5. `git log`
+6. `git diff`
+7. `git show`
+8. `git restore`
+9. `git rm`
+10. `git mv`
+11. `.gitignore`
+12. Understanding untracked files
+13. Staging changes
+14. Writing commit messages
+15. Checking commit history
+
+For every command, explain:
+
+* Meaning
+* Purpose
+* Syntax
+* Example
+* Expected output
+* When to use it
+* Common mistakes
+
+## Module 4: GitHub Basics
+
+1. Creating a GitHub account
+2. Creating a repository
+3. Public versus private repositories
+4. Repository names and descriptions
+5. Creating a README
+6. Uploading a project
+7. Connecting a local repository to GitHub
+8. `git remote`
+9. `git push`
+10. `git pull`
+11. `git fetch`
+12. `git clone`
+13. HTTPS versus SSH
+14. Authentication and access tokens
+15. Repository settings
+16. GitHub profile basics
+
+## Module 5: Branching and Merging
+
+1. What is a branch?
+2. Creating branches
+3. Listing branches
+4. Switching branches
+5. `git switch`
+6. `git checkout`
+7. Renaming branches
+8. Deleting branches
+9. Merging branches
+10. Merge conflicts
+11. Resolving merge conflicts
+12. Fast-forward merges
+13. Three-way merges
+14. Branch naming conventions
+15. Feature branch workflow
+
+## Module 6: Undoing Changes and Recovery
+
+1. Understanding Git history
+2. `git restore`
+3. `git reset`
+4. Soft, mixed, and hard reset
+5. `git revert`
+6. `git reflog`
+7. Recovering lost commits
+8. Undoing the last commit
+9. Amending commits
+10. Unstaging files
+11. Recovering deleted files
+12. Safe recovery practices
+
+Clearly explain destructive commands before showing them. Warn users before commands that can discard work.
+
+## Module 7: Collaboration and Pull Requests
+
+1. Forking repositories
+2. Cloning forks
+3. Pull requests
+4. Reviewing code
+5. Requesting changes
+6. Approving pull requests
+7. Resolving review comments
+8. Handling merge conflicts
+9. Contributing to open-source projects
+10. Issues and labels
+11. Discussions
+12. Good contribution practices
+
+## Module 8: Advanced Git
+
+1. Interactive rebase
+2. `git rebase`
+3. `git cherry-pick`
+4. `git stash`
+5. `git tag`
+6. Lightweight and annotated tags
+7. Git hooks
+8. Git aliases
+9. Submodules introduction
+10. Squashing commits
+11. Tracking remote branches
+12. Rewriting history
+13. Large-file considerations
+14. Troubleshooting common Git problems
+
+Explain the risks of rewriting shared history and when not to use it.
+
+## Module 9: GitHub Features
+
+1. GitHub Pages
+2. Hosting a static website
+3. GitHub Actions introduction
+4. Continuous integration basics
+5. Issue tracking
+6. Project boards
+7. Releases
+8. Repository insights
+9. Dependabot introduction
+10. Branch protection
+11. Code review workflows
+12. README badges
+13. Portfolio presentation
+14. Publishing student projects
+
+## Module 10: Git and GitHub Security
+
+1. Avoiding committed passwords
+2. Protecting API keys
+3. Environment variables
+4. `.env` files
+5. Secret scanning
+6. Removing exposed secrets
+7. Repository permissions
+8. Secure authentication
+9. SSH key management
+10. Dependency security
+11. Public repository safety
+12. Collaborator access management
+
+Explain that removing a secret from the latest file does not necessarily remove it from Git history. Teach users to revoke exposed credentials and follow an appropriate history-cleaning process when necessary.
+
+## Module 11: Practical Git Workflows
+
+1. Starting a new project
+2. Creating a repository
+3. Making the first commit
+4. Pushing a project to GitHub
+5. Updating an existing project
+6. Creating feature branches
+7. Working with pull requests
+8. Collaborating with classmates
+9. Publishing a website
+10. Maintaining a portfolio repository
+11. Managing project releases
+12. Recovering from common mistakes
+
+## Module 12: Git & GitHub Projects
+
+1. Create a personal portfolio repository
+2. Upload an HTML and CSS project
+3. Upload a Java project
+4. Upload a Python project
+5. Create a branch and merge changes
+6. Resolve a merge conflict
+7. Contribute to a sample open-source project
+8. Publish a website using GitHub Pages
+9. Create a project README
+10. Build a professional GitHub portfolio
+
+---
+
+# 10. UNIFIED DESIGN FOR ALL SIX TUTORIAL SECTIONS
+
+Use a consistent, attractive design across Python, JavaScript, SQL & Databases, C, C++, and Git & GitHub.
+
+### Tutorial Dashboard
+
+Create six visually appealing cards, each containing:
+
+* Technology name
+* Appropriate icon
+* Short description
+* Beginner-friendly label
+* Number of learning modules
+* Estimated learning time
+* Progress indicator
+* Start Learning button
+* Continue Learning button when applicable
+
+### Individual Tutorial Pages
+
+Every subject must have:
+
+* Subject introduction
+* Syllabus sidebar
+* Search bar
+* Expandable modules
+* Individual lessons
+* Code examples
+* Copy code button
+* Output panel
+* Previous and next navigation
+* Exercises
+* Quizzes
+* Progress indicators
+
+### Visual Style
+
+Use:
+
+* Modern, clean, professional layout
+* White or dark backgrounds with readable contrast
+* Blue and purple accents consistent with Code From Zero
+* Rounded cards
+* Consistent typography
+* Syntax highlighting
+* Responsive layouts
+* Accessible controls
+* Smooth, subtle transitions
+* Attractive empty states and loading indicators
+
+Use technology-specific accent colors only when they remain consistent with the website's overall design system.
+
+---
+
+# 11. SEARCH, FILTERS, AND NAVIGATION
+
+Implement a functional search system across the six tutorial sections.
+
+Users must be able to:
+
+* Search for a concept by name
+* Search lesson descriptions
+* Find syntax examples by topic
+* Filter by subject
+* Filter by beginner, intermediate, and advanced difficulty
+* Filter by module
+* Filter completed and incomplete lessons
+* Bookmark lessons
+* Open related lessons
+* Navigate to previous and next topics
+* Resume their most recently viewed lesson
+
+When a search result is selected, open the correct lesson directly.
+
+Do not display fake search results or buttons that do nothing.
+
+---
+
+# 12. PRACTICE QUESTIONS AND QUIZZES
+
+Create a separate question bank for each programming subject.
+
+### Python
+
+Include variables, data types, conditions, loops, strings, collections, functions, OOP, exceptions, files, libraries, and projects.
+
+### JavaScript
+
+Include variables, operators, functions, arrays, objects, DOM, events, asynchronous programming, APIs, and modern JavaScript.
+
+### SQL & Databases
+
+Include database concepts, CRUD operations, filtering, functions, joins, subqueries, grouping, normalization, transactions, and indexes.
+
+### C
+
+Include syntax, variables, conditions, loops, arrays, strings, functions, pointers, structures, memory management, and files.
+
+### C++
+
+Include syntax, OOP, functions, arrays, strings, pointers, references, templates, STL, memory management, and DSA.
+
+### Git & GitHub
+
+Include commands, branching, merging, remotes, GitHub repositories, pull requests, recovery, workflows, and security.
+
+Every question should contain:
+
+* Question
+* Subject and topic
+* Difficulty
+* Answer options when applicable
+* Correct answer
+* Explanation
+* Code solution when appropriate
+* Hints
+* Example output when relevant
+
+Include quizzes after each module and a final assessment for each subject.
+
+Calculate scores automatically and display explanations for incorrect answers.
+
+---
+
+# 13. PROJECTS AND HANDS-ON LEARNING
+
+Every subject must contain practical projects that help learners apply their knowledge.
+
+Each project should include:
+
+1. Project title
+2. Project objective
+3. Requirements
+4. Concepts used
+5. Step-by-step instructions
+6. Folder structure when applicable
+7. Complete source code
+8. Code explanations
+9. Expected output
+10. Testing instructions
+11. Common problems
+12. Possible improvements
+13. Challenge tasks
+
+Projects must gradually increase in difficulty, from beginner exercises to portfolio-quality applications.
+
+---
+
+# 14. PROGRESS TRACKING AND USER ACCOUNTS
+
+Add learning progress tracking for each subject separately.
+
+For every user, track:
+
+* Lessons completed
+* Current lesson
+* Module completion
+* Quiz scores
+* Bookmarked topics
+* Practice questions completed
+* Recently viewed lessons
+* Projects completed
+
+Display:
+
+* Overall progress for each subject
+* Module-wise progress
+* Completed lesson count
+* Quiz performance
+* Recommended next lesson
+* Continue Learning button
+
+Integrate with the existing Code From Zero authentication system if available.
+
+If there is no backend, localStorage may be used for a demonstration, but clearly explain that localStorage is device/browser-specific and is not secure account-based storage.
+
+Do not pretend that localStorage provides cross-device synchronization.
+
+---
+
+# 15. AI PROGRAMMING LEARNING ASSISTANT
+
+Integrate the existing Code From Zero AI Assistant with all six tutorial sections.
+
+The assistant must understand which subject and lesson the learner is studying.
+
+Provide separate assistance modes:
+
+### Explain Code
+
+Explain code line by line in simple English.
+
+### Debug Code
+
+Help identify syntax errors, runtime errors, and logical mistakes.
+
+### Generate Examples
+
+Create examples appropriate to the learner's level.
+
+### Explain Output
+
+Show how a program produces its result step by step.
+
+### Practice Generator
+
+Generate new exercises for the selected subject and topic.
+
+### Quiz Generator
+
+Create topic-specific quizzes with answers and explanations.
+
+### Learning Roadmap
+
+Recommend a sequence of lessons based on the learner's progress.
+
+### SQL Assistant
+
+Explain queries, joins, tables, relationships, and database errors.
+
+### Git Assistant
+
+Explain commands, workflows, branch conflicts, and safe recovery options.
+
+Security requirements:
+
+* Use a secure backend for AI API calls.
+* Never expose API keys in frontend code.
+* Handle API errors gracefully.
+* Clearly identify generated code as unverified unless it has actually been executed.
+* Encourage learning and understanding rather than simply copying answers.
+
+---
+
+# 16. TECHNICAL IMPLEMENTATION
+
+Before changing the existing Code From Zero website:
+
+1. Inspect the existing files and project structure.
+2. Identify the current framework and routing.
+3. Inspect the current CSS and design system.
+4. Identify existing authentication.
+5. Identify existing learning progress features.
+6. Reuse existing components wherever possible.
+7. Preserve existing functionality.
+8. Avoid unnecessary dependencies.
+
+Then implement the six tutorial sections.
+
+Requirements:
+
+* Separate lesson data by subject.
+* Use reusable lesson components.
+* Organize modules logically.
+* Avoid duplicated code.
+* Keep navigation consistent.
+* Add valid links and working buttons.
+* Use accessible semantic HTML.
+* Make all pages responsive.
+* Add loading and error states where needed.
+* Test search, filters, quizzes, and progress tracking.
+* Fix console errors.
+* Verify code examples and outputs.
+* Provide the complete updated code for every changed or newly created file.
+
+For code execution, use a secure sandbox when available. Do not execute arbitrary user code directly on the production server without isolation and resource limits.
+
+For SQL examples, use an isolated sample database and prevent learners from accidentally executing destructive queries against production data.
+
+---
+
+# 17. CONTENT ACCURACY REQUIREMENTS
+
+Every lesson must:
+
+* Use technically correct explanations.
+* Include valid syntax.
+* Include complete, runnable examples whenever possible.
+* Explain required setup and dependencies.
+* Display expected outputs.
+* Explain every important line.
+* Identify version-specific features.
+* Clearly distinguish similar concepts.
+* Explain common errors and their solutions.
+* Include real-world applications.
+* Provide exercises and quizzes.
+* Use consistent terminology.
+* Avoid duplicate or misleading lessons.
+
+Use the appropriate language standards and official documentation when verifying syntax and behavior.
+
+Keep examples beginner-friendly while following safe, modern coding practices.
+
+For Git commands that can discard work, provide a clear warning before the example.
+
+For database operations that can delete or modify data, explain the consequences and use disposable practice databases.
+
+---
+
+# 18. FINAL DELIVERABLES
+
+Provide the following:
+
+1. Six separate tutorial sections.
+2. Complete topic lists for all six subjects.
+3. Beginner-to-advanced learning roadmaps.
+4. Meaning and definition for every topic.
+5. Detailed explanations.
+6. Syntax examples.
+7. Complete code examples.
+8. Line-by-line code explanations.
+9. Expected outputs.
+10. Real-world applications.
+11. Common mistakes and solutions.
+12. Practice questions and quizzes.
+13. Mini projects and final projects.
+14. Search and filters.
+15. Learning progress tracking.
+16. Responsive user interface.
+17. AI assistant integration.
+18. Required frontend and backend files.
+19. Database configuration when required.
+20. Setup instructions.
+21. Instructions for running the website in VS Code.
+22. Testing instructions.
+23. Documentation for adding new lessons later.
+24. A clear report of completed features and remaining work.
+
+---
+
+# FINAL INSTRUCTION
+
+Build these six independent, comprehensive tutorial sections inside my existing **Code From Zero** website:
+
+* Python Tutorials
+* JavaScript Tutorials
+* SQL & Databases Tutorials
+* C Programming Tutorials
+* C++ Programming Tutorials
+* Git & GitHub Tutorials
+
+**Every subject must have its own syllabus, roadmap, modules, lessons, examples, syntax, meanings, detailed explanations, outputs, exercises, quizzes, and projects.**
+
+Teach every concept from absolute beginner level and progress toward advanced topics.
+
+Do not mix all subjects into one page. Do not stop after producing a plan or static design. Inspect the existing website, implement the features, test the functionality, and provide the complete updated code.
+
+If the entire platform cannot be completed in one pass, implement it in organized phases, keeping the website functional after each phase. Clearly report what is complete and what remains to be implemented.

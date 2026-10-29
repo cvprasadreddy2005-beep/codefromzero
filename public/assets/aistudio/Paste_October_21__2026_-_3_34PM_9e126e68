@@ -1,0 +1,1015 @@
+# MASTER PROMPT: COMPLETE PYTHON TUTORIALS FOR CODE FROM ZERO
+
+## 1. Project Overview
+
+I am building a beginner-friendly programming education website called **Code From Zero**.
+
+Create a complete, professional, interactive Python tutorial section for absolute beginners, school and college students, diploma students, job seekers, and interview candidates.
+
+The goal is to help learners start from zero, understand every Python concept, write programs, practice coding, build projects, and prepare for technical interviews.
+
+**Website name:** Code From Zero
+**Section name:** Python Tutorials
+**Tagline:** Learn Python From Zero to Advanced
+**Target audience:** Beginners, students, and job seekers
+**Teaching style:** Simple English, step-by-step explanations, practical examples, and hands-on exercises.
+
+## 2. Python Tutorial Page Design
+
+Create a modern, responsive, attractive Python learning interface.
+
+Include:
+
+* A Python tutorial landing page.
+* A clear introduction to Python.
+* A searchable list of tutorials.
+* A left sidebar or collapsible topic menu.
+* A main lesson content area.
+* A right-side table of contents on desktop.
+* A responsive layout for mobile, tablet, and desktop.
+* Light and dark themes.
+* Previous Topic and Next Topic buttons.
+* Progress tracking.
+* A lesson completion button.
+* Bookmarks and saved lessons.
+* Practice questions and quizzes.
+* Copy Code buttons.
+* Syntax-highlighted Python code.
+* Interactive code examples where technically supported.
+* A search bar for finding topics.
+* Beginner, Intermediate, and Advanced difficulty labels.
+* A Python interview preparation section.
+* A Python projects section.
+* A certificate or completion summary only if a real completion system is implemented.
+
+Use a clean design with readable typography, attractive cards, rounded corners, appropriate spacing, and accessible colors.
+
+Do not overcrowd the interface.
+
+## 3. Required Structure for Every Python Topic
+
+Every topic must follow this structure.
+
+### A. Topic Title
+
+Display the topic name clearly.
+
+### B. Meaning
+
+Explain what the topic means in simple English.
+
+### C. Why It Is Used
+
+Explain why programmers use this concept and where it is useful.
+
+### D. Learning Objectives
+
+List what the learner will understand after completing the lesson.
+
+### E. Detailed Explanation
+
+Explain the concept step by step using beginner-friendly language.
+
+Explain technical words whenever they appear.
+
+### F. Syntax
+
+Show the correct Python syntax in a code block.
+
+Explain the purpose of each important part of the syntax.
+
+### G. Example Program
+
+Provide a complete Python program.
+
+### H. Output
+
+Show the expected output of the program.
+
+### I. Line-by-Line Explanation
+
+Explain each important line of the code.
+
+### J. Real-World Example
+
+Explain how the concept is used in a real application.
+
+### K. Common Mistakes
+
+Show common errors and explain how to avoid them.
+
+### L. Interview Questions and Answers
+
+Provide topic-specific interview questions with clear answers.
+
+Include beginner, intermediate, and advanced questions when appropriate.
+
+### M. Practice Questions
+
+Provide exercises for the learner.
+
+### N. Coding Challenges
+
+Include small programming challenges with clear requirements.
+
+### O. Solutions
+
+Provide correct solutions with explanations, preferably in a collapsible section so learners can attempt the exercises first.
+
+### P. Lesson Summary
+
+Summarize the important concepts.
+
+### Q. Mark as Completed
+
+Allow learners to track completed lessons.
+
+Do not skip these sections for important topics.
+
+For advanced topics, explain prerequisite concepts before introducing difficult material.
+
+# 4. Complete Python Tutorial Curriculum
+
+Create separate lessons for every topic listed below.
+
+## MODULE 1: Introduction to Python
+
+1. What Is Python?
+2. History and Features of Python
+3. Advantages and Disadvantages of Python
+4. Applications of Python
+5. Python Installation on Windows
+6. Installing Python on macOS and Linux
+7. Installing and Configuring VS Code
+8. Installing Python Extensions in VS Code
+9. Running Python Programs
+10. Python Interpreter and Interactive Mode
+11. Writing Your First Python Program
+12. Understanding `print()`
+13. Python Syntax and Indentation
+14. Comments in Python
+15. Keywords and Identifiers
+16. Python Coding Standards and PEP 8
+
+## MODULE 2: Variables and Data Types
+
+17. What Are Variables?
+18. Variable Naming Rules
+19. Multiple Variable Assignment
+20. Constants and Naming Conventions
+21. What Are Data Types?
+22. Numeric Types: `int`, `float`, and `complex`
+23. Boolean Data Type
+24. String Data Type
+25. List Data Type
+26. Tuple Data Type
+27. Set Data Type
+28. Dictionary Data Type
+29. The `None` Value
+30. Checking Data Types with `type()`
+31. Type Conversion and Type Casting
+32. Mutable and Immutable Objects
+33. Dynamic Typing in Python
+
+## MODULE 3: Input, Output, and Operators
+
+34. The `print()` Function
+35. The `input()` Function
+36. Formatting Output
+37. F-Strings
+38. Arithmetic Operators
+39. Comparison Operators
+40. Logical Operators
+41. Assignment Operators
+42. Bitwise Operators
+43. Membership Operators
+44. Identity Operators
+45. Operator Precedence and Associativity
+46. Type Conversion in Expressions
+
+## MODULE 4: Conditional Statements
+
+47. Introduction to Decision-Making
+48. The `if` Statement
+49. The `if-else` Statement
+50. The `if-elif-else` Statement
+51. Nested `if` Statements
+52. Conditional Expressions
+53. Truthy and Falsy Values
+54. The `match-case` Statement
+55. Common Conditional Programming Problems
+
+Include examples such as checking positive or negative numbers, finding the largest of three numbers, checking voting eligibility, grading marks, and calculating discounts.
+
+## MODULE 5: Loops
+
+56. Introduction to Loops
+57. The `while` Loop
+58. The `for` Loop
+59. The `range()` Function
+60. Nested Loops
+61. The `break` Statement
+62. The `continue` Statement
+63. The `pass` Statement
+64. The `else` Clause in Loops
+65. Infinite Loops
+66. Looping Through Strings
+67. Looping Through Lists and Dictionaries
+68. Pattern Printing
+69. Number Patterns
+70. Star Patterns
+71. Loop-Based Problem Solving
+
+## MODULE 6: Strings
+
+72. Introduction to Strings
+73. Creating Strings
+74. Single, Double, and Triple Quotes
+75. String Indexing
+76. String Slicing
+77. String Immutability
+78. String Concatenation
+79. String Repetition
+80. String Membership
+81. Common String Methods
+82. `upper()`, `lower()`, and `title()`
+83. `strip()`, `lstrip()`, and `rstrip()`
+84. `replace()`
+85. `split()` and `join()`
+86. `find()` and `index()`
+87. `startswith()` and `endswith()`
+88. `count()`
+89. String Formatting
+90. Escape Characters
+91. String Comparison
+92. Palindrome Checking
+93. Reversing a String
+94. Counting Characters and Words
+95. Common String Interview Problems
+
+## MODULE 7: Lists
+
+96. Introduction to Lists
+97. Creating Lists
+98. Accessing List Elements
+99. Positive and Negative Indexing
+100. List Slicing
+101. Updating List Elements
+102. Adding Elements with `append()`
+103. Adding Elements with `insert()`
+104. Adding Multiple Elements with `extend()`
+105. Removing Elements with `remove()`
+106. Removing Elements with `pop()`
+107. Using `del`
+108. Clearing a List
+109. Sorting Lists
+110. Reversing Lists
+111. Searching in Lists
+112. List Length and Membership
+113. Copying Lists
+114. Shallow Copy and Deep Copy
+115. List Aliasing
+116. Nested Lists
+117. List Iteration
+118. List Comprehensions
+119. Conditional List Comprehensions
+120. List Unpacking
+121. Common List Interview Problems
+
+## MODULE 8: Tuples, Sets, and Dictionaries
+
+### Tuples
+
+122. Introduction to Tuples
+123. Creating Tuples
+124. Tuple Indexing and Slicing
+125. Tuple Methods
+126. Tuple Packing and Unpacking
+127. Tuples vs Lists
+128. Nested Tuples
+
+### Sets
+
+129. Introduction to Sets
+130. Creating Sets
+131. Adding and Removing Set Elements
+132. Set Union
+133. Set Intersection
+134. Set Difference
+135. Symmetric Difference
+136. Subsets and Supersets
+137. Removing Duplicates Using Sets
+138. Frozen Sets
+
+### Dictionaries
+
+139. Introduction to Dictionaries
+140. Creating Dictionaries
+141. Accessing Dictionary Values
+142. Adding and Updating Key-Value Pairs
+143. Removing Dictionary Elements
+144. `keys()`, `values()`, and `items()`
+145. Dictionary Iteration
+146. Checking Whether a Key Exists
+147. Nested Dictionaries
+148. Dictionary Comprehensions
+149. Dictionary Merging
+150. Counting Frequencies with Dictionaries
+151. Lists vs Tuples vs Sets vs Dictionaries
+
+## MODULE 9: Functions
+
+152. What Is a Function?
+153. Advantages of Functions
+154. Defining Functions with `def`
+155. Calling Functions
+156. Parameters and Arguments
+157. Positional Arguments
+158. Keyword Arguments
+159. Default Arguments
+160. Variable-Length Arguments with `*args`
+161. Keyword Variable Arguments with `**kwargs`
+162. Returning Values
+163. Multiple Return Values
+164. Local and Global Variables
+165. The `global` Keyword
+166. The `nonlocal` Keyword
+167. Lambda Functions
+168. Recursive Functions
+169. Docstrings
+170. Function Annotations
+171. First-Class Functions
+172. Higher-Order Functions
+173. Closures
+174. Pure Functions and Side Effects
+175. Common Function Interview Questions
+
+## MODULE 10: Comprehensions and Functional Programming
+
+176. List Comprehensions
+177. Dictionary Comprehensions
+178. Set Comprehensions
+179. Generator Expressions
+180. The `map()` Function
+181. The `filter()` Function
+182. The `reduce()` Function
+183. `zip()`
+184. `enumerate()`
+185. `sorted()` with a Key Function
+186. `any()` and `all()`
+187. Functional Programming Basics
+
+## MODULE 11: Modules, Packages, and Libraries
+
+188. What Is a Module?
+189. Creating a Custom Module
+190. Importing Modules
+191. `import` Statements
+192. `from ... import ...`
+193. Import Aliases
+194. The `__name__ == "__main__"` Pattern
+195. What Is a Package?
+196. Creating Python Packages
+197. Standard Library Overview
+198. The `math` Module
+199. The `random` Module
+200. The `statistics` Module
+201. The `datetime` Module
+202. The `os` Module
+203. The `sys` Module
+204. The `pathlib` Module
+205. The `collections` Module
+206. Installing Libraries with `pip`
+207. Understanding PyPI
+208. Creating Virtual Environments
+209. Managing Project Dependencies
+
+## MODULE 12: Exception Handling
+
+210. What Are Errors and Exceptions?
+211. Syntax Errors
+212. Runtime Errors
+213. Logical Errors
+214. The `try` Statement
+215. The `except` Statement
+216. Handling Multiple Exceptions
+217. The `else` Clause
+218. The `finally` Clause
+219. Raising Exceptions with `raise`
+220. Creating Custom Exceptions
+221. Assertions
+222. Best Practices for Exception Handling
+
+## MODULE 13: File Handling
+
+223. Introduction to File Handling
+224. Opening Files with `open()`
+225. File Modes: `r`, `w`, `a`, and `x`
+226. Reading Files
+227. Writing Files
+228. Appending to Files
+229. The `with` Statement
+230. File Pointers and `seek()`
+231. Working with File Paths
+232. Handling File Exceptions
+233. Reading and Writing CSV Files
+234. Working with JSON Files
+235. Working with Directories
+236. File Handling Projects
+
+## MODULE 14: Object-Oriented Programming
+
+237. Introduction to OOP
+238. Classes and Objects
+239. The `__init__()` Method
+240. Instance Attributes
+241. Class Attributes
+242. Instance Methods
+243. Class Methods
+244. Static Methods
+245. Encapsulation
+246. Inheritance
+247. Single Inheritance
+248. Multiple Inheritance
+249. Multilevel Inheritance
+250. Hierarchical Inheritance
+251. Polymorphism
+252. Method Overriding
+253. Method Overloading Concepts in Python
+254. Abstraction
+255. Abstract Classes
+256. The `super()` Function
+257. The `isinstance()` Function
+258. The `issubclass()` Function
+259. Properties and Setters
+260. Special Methods and Dunder Methods
+261. `__str__()` and `__repr__()`
+262. Composition vs Inheritance
+263. Dataclasses
+264. OOP Interview Questions
+
+## MODULE 15: Advanced Python
+
+265. Iterables and Iterators
+266. Creating Custom Iterators
+267. Generators
+268. The `yield` Keyword
+269. Decorators
+270. Creating Custom Decorators
+271. Context Managers
+272. The `with` Statement in Advanced Use
+273. Regular Expressions with `re`
+274. Working with Dates and Times
+275. Shallow and Deep Copying
+276. Garbage Collection Basics
+277. Memory Management Basics
+278. Python's Global Interpreter Lock
+279. Type Hints
+280. The `typing` Module
+281. Structural Pattern Matching
+282. Enums
+283. Descriptors: Introduction
+284. Metaclasses: Introduction
+285. Advanced Python Best Practices
+
+Explain advanced topics in simple language and provide prerequisites where necessary.
+
+## MODULE 16: Databases and SQL with Python
+
+286. Introduction to Databases
+287. Relational Databases
+288. SQL Fundamentals
+289. Connecting Python to SQLite
+290. Creating Tables with Python
+291. Inserting Database Records
+292. Reading Database Records
+293. Updating Database Records
+294. Deleting Database Records
+295. Parameterized Queries
+296. Preventing SQL Injection
+297. Database Transactions
+298. Introduction to PostgreSQL
+299. Introduction to MySQL
+300. Python Database Projects
+
+Use parameterized queries and explain secure database practices.
+
+## MODULE 17: APIs and Web Requests
+
+301. What Is an API?
+302. What Is REST?
+303. HTTP Methods
+304. HTTP Status Codes
+305. JSON Fundamentals
+306. Sending HTTP Requests
+307. Using the `requests` Library
+308. Handling API Responses
+309. API Authentication Basics
+310. API Keys and Environment Variables
+311. API Error Handling
+312. Creating a Simple API Client
+313. Introduction to FastAPI
+314. Introduction to Flask
+315. Building a Simple REST API
+
+Never expose secret API keys in frontend code or public repositories.
+
+## MODULE 18: Multithreading, Multiprocessing, and Async
+
+316. Concurrency vs Parallelism
+317. Introduction to Threads
+318. The `threading` Module
+319. Introduction to Multiprocessing
+320. The `multiprocessing` Module
+321. Introduction to Asynchronous Programming
+322. `async` and `await`
+323. The `asyncio` Module
+324. Choosing Threads, Processes, or Async
+325. Common Concurrency Problems
+
+## MODULE 19: Testing, Debugging, and Code Quality
+
+326. Introduction to Debugging
+327. Reading Tracebacks
+328. Using the VS Code Debugger
+329. Python Logging
+330. Unit Testing
+331. The `unittest` Framework
+332. Introduction to `pytest`
+333. Assertions in Tests
+334. Test Fixtures and Test Organization
+335. Mocking: Introduction
+336. Code Formatting
+337. Linting
+338. Type Checking
+339. Writing Readable Python Code
+340. Git and GitHub for Python Projects
+
+## MODULE 20: Data Structures and Algorithms with Python
+
+341. Time Complexity
+342. Space Complexity
+343. Big O Notation
+344. Arrays and Lists
+345. Stacks
+346. Queues
+347. Linked Lists
+348. Hash Tables and Dictionaries
+349. Sets for Problem Solving
+350. Searching Algorithms
+351. Linear Search
+352. Binary Search
+353. Sorting Algorithms
+354. Bubble Sort
+355. Selection Sort
+356. Insertion Sort
+357. Merge Sort
+358. Quick Sort
+359. Recursion and Backtracking
+360. Trees
+361. Binary Search Trees
+362. Heaps and Priority Queues
+363. Graphs
+364. Breadth-First Search
+365. Depth-First Search
+366. Dynamic Programming Basics
+367. Common Coding Interview Problems
+
+Explain the algorithms step by step, show Python implementations, and discuss their time and space complexity.
+
+## MODULE 21: Python for Data Analysis
+
+368. Introduction to Data Analysis
+369. Installing NumPy
+370. NumPy Arrays
+371. NumPy Array Operations
+372. Array Indexing and Slicing
+373. NumPy Broadcasting
+374. Introduction to Pandas
+375. Series and DataFrames
+376. Reading CSV Files with Pandas
+377. Inspecting and Cleaning Data
+378. Handling Missing Values
+379. Filtering and Sorting Data
+380. Grouping and Aggregation
+381. Merging DataFrames
+382. Introduction to Matplotlib
+383. Line Charts
+384. Bar Charts
+385. Histograms
+386. Scatter Plots
+387. Data Analysis Projects
+
+## MODULE 22: Python for AI and Machine Learning
+
+388. Introduction to AI, ML, and Deep Learning
+389. Python Libraries for Machine Learning
+390. Preparing Data
+391. Features and Labels
+392. Training and Testing Data
+393. Supervised Learning
+394. Unsupervised Learning
+395. Regression
+396. Classification
+397. Clustering
+398. Model Evaluation
+399. Overfitting and Underfitting
+400. Introduction to Scikit-learn
+401. Introduction to Neural Networks
+402. Beginner Machine Learning Projects
+
+Clearly explain that these are introductory lessons and that machine learning requires mathematics, statistics, data preparation, and additional practice.
+
+## MODULE 23: Python Web Development
+
+403. Introduction to Web Development with Python
+404. Frontend vs Backend
+405. Flask Fundamentals
+406. FastAPI Fundamentals
+407. Routes and Endpoints
+408. Handling Requests and Responses
+409. Templates
+410. Forms and Validation
+411. Connecting a Database
+412. Authentication Fundamentals
+413. Environment Variables and Configuration
+414. Building a REST API
+415. Deploying a Python Application
+416. Web Development Projects
+
+## MODULE 24: Automation and Scripting
+
+417. Introduction to Automation
+418. Automating File Operations
+419. Organizing Files with Python
+420. Reading and Writing Excel Files
+421. Working with CSV Files
+422. Sending Emails Safely
+423. Web Scraping Fundamentals
+424. Working with HTML Using Beautiful Soup
+425. Automating Repetitive Tasks
+426. Scheduling Python Scripts
+427. Command-Line Arguments
+428. Environment Variables
+429. Building Automation Projects
+
+Explain legal, ethical, and privacy considerations for web scraping and automation.
+
+## MODULE 25: Python Projects
+
+Create separate project tutorials with requirements, planning, code, explanation, expected output, testing, and improvements.
+
+Include these beginner projects:
+
+1. Hello World Program
+2. Simple Calculator
+3. Number Guessing Game
+4. Even or Odd Checker
+5. Multiplication Table Generator
+6. Temperature Converter
+7. Student Grade Calculator
+8. Simple Quiz Application
+9. Password Generator
+10. Word Counter
+11. Contact Book
+12. To-Do List Application
+13. Expense Tracker
+14. File Organizer
+15. CSV Data Analyzer
+
+Intermediate projects:
+
+16. Library Management System
+17. Student Management System
+18. Bank Account Simulator
+19. Inventory Management System
+20. Weather Information Application Using an API
+21. Personal Finance Tracker with SQLite
+22. Blog REST API
+23. Data Visualization Dashboard
+24. Web Scraping Project Using a Permitted Public Website
+25. Automated Report Generator
+
+Advanced projects:
+
+26. Authentication-Enabled Task Management API
+27. Data Analysis Portfolio Project
+28. Machine Learning Prediction Application
+29. Full-Stack Python Application
+30. AI-Powered Question and Answer Application
+
+For every project, include:
+
+* Project objective
+* Required knowledge
+* Features
+* Folder structure when appropriate
+* Complete working code
+* Setup instructions
+* Line-by-line explanation of important code
+* Expected output
+* Testing instructions
+* Common errors and fixes
+* Possible improvements
+
+Avoid claiming that a project works unless the implementation has been checked.
+
+# 5. Python Interview Preparation
+
+Create a dedicated Python Interview Preparation page.
+
+Organize questions into these categories:
+
+1. Python Fundamentals
+2. Variables and Data Types
+3. Operators
+4. Conditional Statements
+5. Loops
+6. Strings
+7. Lists and Tuples
+8. Sets and Dictionaries
+9. Functions
+10. Modules and Packages
+11. Exception Handling
+12. File Handling
+13. Object-Oriented Programming
+14. Iterators and Generators
+15. Decorators
+16. Memory Management
+17. Multithreading and Multiprocessing
+18. Database Connectivity
+19. APIs
+20. Testing and Debugging
+21. Data Structures and Algorithms
+22. NumPy and Pandas
+23. Machine Learning Fundamentals
+24. Python Web Development
+
+For each category, provide:
+
+* Beginner interview questions
+* Intermediate interview questions
+* Advanced interview questions when appropriate
+* Clear answers
+* Short code examples where useful
+* Output-based questions
+* Find-the-error questions
+* Predict-the-output questions
+* Practical coding problems
+* Common follow-up questions
+
+Create a filter for difficulty level.
+
+Allow learners to reveal answers after attempting each question.
+
+Do not repeat the same questions unnecessarily.
+
+# 6. Python Practice and Quiz System
+
+Create a Python practice section with:
+
+* Multiple-choice questions
+* Fill-in-the-blank questions
+* Predict-the-output questions
+* Find-the-error questions
+* Short coding exercises
+* Topic-specific quizzes
+* Mixed-topic tests
+* Interview practice tests
+
+Each quiz should include:
+
+* Question
+* Multiple-choice options when applicable
+* Correct answer
+* Explanation
+* Score
+* Progress indicator
+* Retry option
+* Review incorrect answers
+
+Use a question bank organized by topic and difficulty.
+
+Do not mark an answer correct simply because the learner selected an option. Validate it against the correct answer.
+
+For coding questions, use an actual code execution service only if a secure backend has been implemented. Never execute arbitrary user code directly in the browser or server without suitable security controls.
+
+# 7. Python Code Editor
+
+Where technically possible, add an interactive Python code editor.
+
+Required features:
+
+* Editable code area
+* Run button
+* Reset button
+* Example code
+* Output panel
+* Error display
+* Copy code button
+* Clear instructions
+
+If browser-based Python execution is used, select and integrate a suitable solution such as Pyodide.
+
+Explain that browser execution may have limitations for packages, filesystem access, networking, and long-running programs.
+
+If execution is unavailable, show a clearly labeled code example and instructions for running it locally in Python or VS Code. Do not display fabricated execution results.
+
+# 8. Learning Roadmap
+
+Create a beginner-to-advanced Python learning roadmap.
+
+### Stage 1: Beginner
+
+* Python introduction
+* Installation
+* Syntax
+* Variables
+* Data types
+* Operators
+* Input and output
+* Conditional statements
+* Loops
+
+### Stage 2: Core Python
+
+* Strings
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+* Functions
+* Comprehensions
+* Modules
+* Exception handling
+* File handling
+
+### Stage 3: Intermediate Python
+
+* Object-oriented programming
+* Iterators
+* Generators
+* Decorators
+* Regular expressions
+* Virtual environments
+* Package management
+* Testing and debugging
+* Git and GitHub
+
+### Stage 4: Advanced Python
+
+* Type hints
+* Advanced OOP
+* Concurrency
+* Async programming
+* APIs
+* Databases
+* Design and code quality
+
+### Stage 5: Choose a Career Path
+
+Offer separate learning paths for:
+
+* Python Developer
+* Backend Developer
+* Data Analyst
+* Data Scientist
+* AI and Machine Learning Engineer
+* Automation Developer
+* Software Engineer
+
+Explain which topics are essential and which are optional for each path.
+
+Do not imply that every Python learner must master every advanced topic before building projects.
+
+# 9. Progress Tracking
+
+Implement lesson progress tracking.
+
+Track:
+
+* Lessons completed
+* Current learning stage
+* Quiz scores
+* Bookmarked lessons
+* Completed exercises
+* Project progress
+* Overall completion percentage
+
+If the user is signed in, save progress to the account through a secure backend and database.
+
+For guest users, use localStorage.
+
+Do not store passwords, secret keys, or sensitive authentication tokens in ordinary localStorage.
+
+Clearly distinguish real account-based synchronization from guest-only browser storage.
+
+# 10. Search and Navigation
+
+Provide:
+
+* Search by lesson title
+* Search by topic
+* Filter by difficulty
+* Filter by learning stage
+* Filter completed and incomplete lessons
+* Previous and Next lesson navigation
+* Related lessons
+* Breadcrumb navigation
+* A table of contents for long lessons
+
+Search should work correctly and return relevant results.
+
+# 11. Accessibility and Responsive Design
+
+Ensure:
+
+* Mobile-friendly navigation
+* Keyboard-accessible controls
+* Readable font sizes
+* Sufficient color contrast
+* Meaningful button labels
+* Accessible form labels
+* Appropriate alternative text for images
+* Visible keyboard focus
+* Reduced-motion support
+
+Make the website usable for beginners and people using assistive technology.
+
+# 12. Technical Requirements
+
+Integrate the Python tutorial section into my existing Code From Zero website.
+
+Before modifying code:
+
+1. Inspect the existing project structure.
+2. Identify the current frontend framework, styling system, routing, and state management.
+3. Reuse existing components where practical.
+4. Preserve existing features.
+5. Avoid creating duplicate pages or conflicting styles.
+
+If the project uses plain HTML, CSS, and JavaScript, continue using that stack unless a change is necessary and explained.
+
+If the project uses React or another framework, follow its existing architecture.
+
+Use reusable components and keep tutorial content separate from UI logic.
+
+Store lesson content in structured data where appropriate.
+
+Use semantic HTML and maintainable CSS.
+
+Do not place private API keys or database credentials in frontend code.
+
+If backend functionality is required, implement or clearly specify the required backend endpoints and database schema.
+
+Do not pretend that sign-in, account synchronization, code execution, or database saving works if it has not been implemented.
+
+# 13. Quality Requirements
+
+The final result must:
+
+* Include every requested topic.
+* Use simple, understandable English.
+* Explain technical terminology.
+* Provide accurate Python syntax.
+* Include complete, runnable examples wherever appropriate.
+* Show expected output.
+* Explain important code line by line.
+* Include topic-specific interview questions and answers.
+* Provide exercises and solutions.
+* Avoid unnecessary repetition.
+* Use consistent lesson formatting.
+* Work on mobile and desktop.
+* Preserve existing Code From Zero features.
+* Provide useful error messages.
+* Include loading, empty, and failure states where relevant.
+* Avoid fake functionality and placeholder buttons.
+
+Use modern Python 3 syntax and explain version-dependent features when necessary.
+
+Use trusted Python documentation as a reference:
+https://docs.python.org/3/tutorial/
+
+# 14. Final Deliverables
+
+Complete the work in these stages:
+
+1. Inspect the existing website.
+2. Design the Python tutorial section.
+3. Implement the tutorial navigation and layout.
+4. Add the complete curriculum and lesson content.
+5. Add examples, syntax, explanations, and outputs.
+6. Add interview questions and answers.
+7. Add practice exercises and quizzes.
+8. Implement progress tracking.
+9. Add the code editor if technically feasible.
+10. Add Python projects and career roadmaps.
+11. Test navigation, search, filters, quizzes, and progress saving.
+12. Check responsive design and accessibility.
+13. Fix errors and remove broken links.
+14. Provide a summary of completed features.
+15. Explain how to run and test the project.
+
+If the entire curriculum is too large to implement in one response, divide it into clearly numbered stages. Complete each stage without replacing detailed lessons with short summaries or empty placeholders.
+
+**Final goal:** Build a professional, beginner-friendly, comprehensive Python learning platform inside Code From Zero that takes learners from their first Python program to practical projects and interview preparation.
